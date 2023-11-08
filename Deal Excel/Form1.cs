@@ -828,7 +828,7 @@ namespace Deal_Excel
             }
             else
             {
-                listBox1.Items.Add(comboBox2.Text + " " + dateTimePicker1.Text + ": " + normallyadded.ToString() + " Lines added");
+                listBox1.Items.Add(comboBox2.Text + " " + dateTimePicker1.Text + " : total " + normallyadded.ToString() + " Lines added");
                 if(customerID==2)
                     listBox1.Items.Add(comboBox2.Text + " " + dateTimePicker1.Text + " RTV: " + wistronRTV.ToString() + " Lines added");
             }
